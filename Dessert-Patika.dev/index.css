@@ -1,0 +1,51 @@
+* {
+    background-color: rgb(118, 100, 76);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    color: black;
+    text-align: center;
+}
+
+a {
+    color: black;
+}
+
+section {
+    display: flex;
+}
+
+img {
+    width: 50%;
+    border-radius: 10px;
+
+}
+
+.genel-bilgiler{
+    display: flex;
+    justify-content: flex-start;
+}
+
+.genel-bilgiler li {
+    
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.genel-bilgiler li span{
+    text-decoration: underline;
+}
+
+.wishes {
+    display: flex;
+    justify-content: flex-end;
+}
+
+h4 span{
+    border: 1px solid rgb(170, 149, 131);
+    border-radius: 5px;
+    background-color: rgb(170, 149, 131);
+    padding: 2px;
+    margin-left: 10px;
+}
